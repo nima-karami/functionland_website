@@ -24,3 +24,26 @@ body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 10rem rgba(0, 0, 0, .8);
 }
+
+.post-divider {
+    border: 1px solid white;
+}
+
+#hero {
+    background-image: url("media/black _ green_w logo 2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: /*enter value here*/;
+}
+
+
+#news div.col-4 {
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+}
