@@ -1,9 +1,26 @@
 /*.navbar-nav {
-    display: inline-block;
-    float: none;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: left;
+
 }
 
-.navbar-collapse {
-    text-align: center;
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
 }
 */
+.navbar > .container {
+    margin: 0em 30em 0em 30em;
+}
+
+.h1 {
+    color: black;
+}
+
+body {
+    background-color: rgba(26, 26, 26, 1);
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 10rem rgba(0, 0, 0, .8);
+}

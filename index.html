@@ -9,17 +9,19 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Functionland</title>
 </head>
-<body>
+
+<body class="bg-gray">
+	
 	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#"><img class="img-fluid" src="media/landscape-logo-colour-light.png" alt="Functionland"></a>
+	  <div class="container">
+	    <a class="navbar-brand" href="#"><img class="img-fluid" src="media/landscape-logo-colour-light.png" style="width: 8em" alt="Functionland"></a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 
 	    <div class="collapse navbar-collapse" id="navbarCollapse">
-	      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+	      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
 	        <li class="nav-item">
 	          <a class="nav-link active" aria-current="page" href="#">News</a>
 	        </li>
@@ -32,15 +34,140 @@
 	        <li class="nav-item">
 	          <a class="nav-link" href="#">NFT</a>
 	        </li>
-
 	      </ul>
-
 	    </div>
 	  </div>
 	</nav>
 
-	<h1>Hi! We will be with you soon!</h1>
+	<!-- Hero -->
+	<section class="container-fluid p-0">
+		
+		<!-- Background Image -->
+		<div class="col">
+			<img src="media/black _ green_w logo 2.jpg" class="img-fluid" alt="Hero Image">
+		</div>
 
+		<!-- Partners -->
+		<div id="carouselExampleFade" class="carousel slide carousel-fade text-white" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active d-flex justify-content-around">
+					<p>Company 1</p>
+					<p>Company 2</p>
+					<p>Company 3</p>
+					<p>Company 4</p>
+				</div>
+				<div class="carousel-item d-flex justify-content-around">
+					<p>Company 4</p>
+					<p>Company 5</p>
+					<p>Company 6</p>
+					<p>Company 7</p>
+				</div>
+				<div class="carousel-item d-flex justify-content-around">
+					<p>Company 8</p>
+					<p>Company 9</p>
+					<p>Company 10</p>
+					<p>Company 11</p>
+				</div>
+			</div>
+
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+
+
+
+	<!-- Software -->
+	<section class="container" style="background-color:red">
+		<div class="row">
+			
+			<div class="col">
+				<img src="media/day13-it-girl.png" class="img-fluid" alt="placeholder image">
+			</div>
+
+			<div class="col"><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1></div>
+		</div>
+	</section> 
+
+	<!-- Hardware -->
+	<section class="container" style="background-color:grey">
+		<div class="row">
+			
+			<div class="col">
+				<img src="media/day13-it-girl.png" class="img-fluid" alt="placeholder image">
+			</div>
+
+			<div class="col">
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+			</div>
+		</div>
+	</section> 
+	
+	<!-- News -->
+	<section class="container" style="background-color:red">
+		<p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+
+
+
+	<!-- Footer -->
+	<footer class="mt-auto text-white-50 text-center">
+		
+		<!-- About -->
+		<section class="container" style="background-color:grey;">
+			<div class="row">
+				<div class="col">
+					<h1>Join Us</h1>		
+				</div>
+				<div class="col">
+					<input type="text" name="text">
+				</div>
+			</div>
+			<p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+			</p>
+		</section>
+
+		<!-- Socials -->
+		<section class="container" style="background-color:red;">
+			<p class="p-0 m-0">SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS 
+				SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS 
+				SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS 
+			</p>
+		</section>
+
+
+		<!-- Credits -->
+        <section class="container" style="background-color:grey;">
+	        <p>Created for <a href="https://fx.land/" class="text-white">Functionland</a>, by <a href="https://nima-karami.com" class="text-white">Nima Karami</a>.
+	        </p>
+	    </section>
+    </footer>
 
 	<!-- Bootstrap Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
