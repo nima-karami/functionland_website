@@ -47,3 +47,21 @@ body {
     display: inline-flex;
     justify-content: center;
 }
+
+.partner-logo {
+    height: 3rem;
+}
+
+/*FIXING CAROUSEL FADE*/
+
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+/*FIXING CAROUSEL FADE*/
