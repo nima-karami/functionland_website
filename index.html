@@ -7,10 +7,13 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- Load CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<!-- Load Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<title>Functionland</title>
 </head>
 
-<body class="bg-gray">
+<body class="bg-white">
 	
 	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -23,16 +26,16 @@
 	    <div class="collapse navbar-collapse" id="navbarCollapse">
 	      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
 	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="#">News</a>
+	          <a class="nav-link active" aria-current="page" href="https://fx.land/">Home</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">Blog</a>
+	          <a class="nav-link" href="https://blog.fx.land/">Blog</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">Box</a>
+	          <a class="nav-link" href="https://fx.land/mine/">Borg Protocol</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">NFT</a>
+	          <a class="nav-link" href="https://fx.land/nft/">NFT</a>
 	        </li>
 	      </ul>
 	    </div>
@@ -40,17 +43,18 @@
 	</nav>
 
 	<!-- Hero -->
-	<section id="hero" class="container-fluid p-0 d-flex flex-column justify-content-end pb-5" style="height:100vh;">
+	<section id="hero" class="container-fluid p-0 d-flex flex-column justify-content-end" style="height:100vh;">
 		
 		<!-- Background Image -->
 		<div class="flex-grow-1 container d-flex justify-content-start align-items-center">
-			<h1 class="text-uppercase text-white w-75" style="font-size: 6rem;">Get a piece of blockchain on your desk</h1>
+			<h1 class="text-uppercase text-white w-75" style="font-size: 6rem;">Get a piece of <strong>blockchain</strong> on your desk</h1>
+
 		</div>
 
 		<!-- Partners -->
 		<div id="partnersLogoCarousel" class="container-fluid carousel slide carousel-fade text-white" data-bs-ride="carousel">
 
-			<div class="carousel-inner">
+			<div class="carousel-inner" style="padding-bottom: 5rem;">
 				<div class="carousel-item active d-flex justify-content-evenly">
 					<img class="partner-logo" src="media\partners_logos\white\Protocol-Labs.png">
 					<img class="partner-logo" src="media\partners_logos\white\Filecoin.png">
@@ -102,23 +106,75 @@
 
 
 	<!-- Software -->
-	<section class="container" style="background-color:red">
-		<div class="row">
-			
+	<section class="container">
+		
+		<div class="row gx-5">
 			<div class="col">
-				<img src="media/day13-it-girl.png" class="img-fluid" alt="placeholder image">
+				<img src="media/illustration/table2.png" class="img-fluid" alt="placeholder image">
 			</div>
 
-			<div class="col"><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1></div>
+			<div class="col d-flex align-items-center">
+				<h2 class="text-uppercase"style="font-size: 4rem;">People get apps.<br>
+			Developers get paid.</h2></div>
 		</div>
+
+		<hr class=my-5>
+		
+		<div class="row gx-5">
+			<div class="col d-flex align-items-center">
+				<h2 class="text-uppercase"style="font-size: 4rem;">People get apps.<br>
+			Developers get paid.</h2></div>
+
+			<div class="col">
+				<img src="media/illustration/FreeApps2.png" class="img-fluid" alt="placeholder image">
+			</div>
+
+		</div>
+		
+		<hr class=my-5>
+		
+		<div class="row gx-5">
+			<div class="col">
+				<img src="media/illustration/pool2.png" class="img-fluid" alt="placeholder image">
+			</div>
+
+			<div class="col d-flex align-items-center">
+				<h2 class="text-uppercase"style="font-size: 4rem;">People get apps.<br>
+			Developers get paid.</h2></div>
+		</div>
+
+		<hr class=my-5>
+
+		<div class="row gx-5">
+			<div class="col d-flex align-items-center">
+				<h2 class="text-uppercase"style="font-size: 4rem;">People get apps.<br>
+			Developers get paid.</h2>
+			</div>
+
+			<div class="col">
+				<img src="media/illustration/Wallet2.png" class="img-fluid" alt="placeholder image">
+			</div>
+		</div>
+
+		<hr class=my-5>
+		
+		<div class="row gx-5">
+			<div class="col">
+				<img src="media/illustration/exploded2.png" class="img-fluid" alt="placeholder image">
+			</div>
+
+			<div class="col d-flex align-items-center">
+				<h2 class="text-uppercase"style="font-size: 4rem;">Customize your box.<br>
+			Get different functionalities.</h2></div>
+		</div>
+		
+
+
+
 	</section> 
 
 	<!-- Hardware -->
+	<!-- 
 	<section class="container" style="background-color:grey">
 		<div class="row">
 			
@@ -135,12 +191,12 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
 			</div>
 		</div>
-	</section> 
+	</section>  -->
 	
 	<!-- News -->
-	<section id="news" class="container d-flex justify-content-center" style="background-color:red;">
+	<section id="news" class="container-fluid d-flex justify-content-center">
 		<div style="width:54rem">
-			<div class="row gx-0">
+			<div class="row">
 				<div class="col-4">
 					<div class="card text-white text-center bg-dark" style="height:18rem; width:18rem;">
 					  <div class="card-body border border-light border-5 m-4">
@@ -170,7 +226,7 @@
 				</div>	
 			</div>
 
-			<div class="row gx-0">
+			<div class="row">
 				<div class="col-4">
 					<div class="card text-white text-center bg-dark" style="height:18rem; width:18rem;">
 					  <div class="card-body border border-light border-5 m-4">
@@ -200,7 +256,7 @@
 				</div>	
 			</div>
 
-			<div class="row gx-0">
+			<div class="row">
 				<div class="col-4">
 					<div class="card text-white text-center bg-dark" style="height:18rem; width:18rem;">
 					  <div class="card-body border border-light border-5 m-4">
@@ -237,56 +293,52 @@
 
 
 	<!-- Footer -->
-	<footer class="mt-auto text-white-50 text-center">
+	<footer class="pt-5 text-white-50 bg-dark" >
 		
 		<!-- About -->
-		<section class="container" style="background-color:grey;">
-			<div class="row">
-				<div class="col-4">
-					<h1>Join Us</h1>		
-				</div>
-				<div class="col-8">
-					<input class="form-control" type="text" placeholder="Enter your email here" aria-label="default input example">
-				</div>
-			</div>
+		<section class="container py-5">
 
-			<div class="row">
+			<div class="row gx-5">
 				<div class="col">
-					<p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
-					</p>		
+					<h3 class="text-white mb-5">We believe in a fairer future, in the redistribution of power, and in privacy.</h3>
+					<div class="input-group">
+						<input class="form-control rounded-0" type="email" placeholder="Enter your email here" aria-label="default input example">
+						<span class="input-group-btn">
+				        	<button id="subscribe-btn" class="btn rounded-0 text-white" type="submit">Join Us</button>
+			        	</span>
+					</div>
 				</div>
-				<div class="col">
-					<p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
-					</p>		
+				<div class="col text-white">
+					<p class="p-0 m-0 text-left">We are on a the mission to deliver on sustainable data sovereignty for the mainstream by expanding Web3 beyond DeFi into everyday applications.
+					We put an end to the “Rental Web” by providing people with the infrastructure to own it and democratize access to cutting edge technologies like AI and Blockchain. We aim to create an open ecosystem for software/hardware developers through the secret sauce of "Monetized Open Source”. We design from the first principles for “privacy” and “ethics” to be the foundation, not an afterthought.
+ 					</p>
+						
 				</div>
-				<div class="col">
-					<p class="p-0 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
+				<div class="col text-white">
+					<p class="p-0 m-0">The amount people pay in Cloud subscriptions is exploding. Further, 50% express that they are not satisfied with the balance of convenience over the costs imposed, with alternatives being exposed to ads or being subject to data harvesting without consent.
+
+					</p>	
+					<p class="p-0 m-0">Every Borg user participates in hosting Web3 through an owned miner. In this new paradigm, traditional Cloud services are replaced by resource sharing through Blockchain. All parties involved are compensated. We will be the first to introduce paid open source development in the industry.
+ 
 					</p>		
 				</div>		
 			</div>
 		</section>
 
 		<!-- Socials -->
-		<section class="container" style="background-color:red;">
-			<p class="p-0 m-0">SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS 
-				SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS 
-				SOCIALS SOCIALS SOCIALS SOCIALS SOCIALS 
-			</p>
+		<section class="container-fluid d-flex justify-content-around text-white text-center py-5">
+			<a class="bi-telegram text-white text-decoration-none fs-5" href="https://t.me/functionland" aria-label="Telegram"><strong class="fs-6">  Telegram</strong></a>
+			<a class="bi-discord text-white text-decoration-none fs-5" href="https://discord.gg/AbRN8EKjh4" aria-label="Discord"><strong class="fs-6">  Discord</strong></a>
+			<a class="bi-twitter text-white text-decoration-none fs-5" href="https://twitter.com/functionland" aria-label="Twitter"><strong class="fs-6">  Twitter</strong></a>
+			<a class="bi-linkedin text-white text-decoration-none fs-5" href="https://www.linkedin.com/company/functionland" aria-label="LinkedIn"><strong class="fs-6">  LinkedIn</strong></a>
+			<a class="bi-github text-white text-decoration-none fs-5" href="https://github.com/functionland" aria-label="GitHub"><strong class="fs-6">  GitHub</strong></a>
+			<a class="bi-medium text-white text-decoration-none fs-5" href="https://medium.com/functionland" aria-label="Medium"><strong class="fs-6">  Medium</strong></a>
 		</section>
 
 
 		<!-- Credits -->
-        <section class="container" style="background-color:grey;">
-	        <p>Created for <a href="https://fx.land/" class="text-white">Functionland</a>, by <a href="https://nima-karami.com" class="text-white">Nima Karami</a>.
+        <section class="container text-center credits">
+	        <p class="p-0 m-0">Created for <a href="https://fx.land/" class="text-white">Functionland</a>, by <a href="https://nima-karami.com" class="text-white">Nima Karami</a>.
 	        </p>
 	    </section>
     </footer>
